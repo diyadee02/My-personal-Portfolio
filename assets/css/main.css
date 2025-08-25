@@ -522,6 +522,8 @@ section,
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  
+
 }
 
 .section-title h2:after {
@@ -533,6 +535,7 @@ section,
   background: var(--accent-color);
   left: 0;
   bottom: 0;
+
 }
 
 .section-title p {
@@ -564,7 +567,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color) 85%, transparent);
+  background: color-mix(in srgb, var(--background-color) 80%, transparent);
   position: absolute;
   inset: 0;
   z-index: 2;
