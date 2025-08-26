@@ -1046,23 +1046,23 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
-.contact .info-wrap {
+#contact-form {
   background-color: var(--surface-color);
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   padding: 30px;
 }
 
 @media (max-width: 575px) {
-  .contact .info-wrap {
+  #contact-form {
     padding: 20px;
   }
 }
 
-.contact .info-item {
+#contact-form {
   margin-bottom: 40px;
 }
-
-.contact .info-item i {
+/* 
+#contact-form i {
   font-size: 20px;
   color: var(--accent-color);
   background: color-mix(in srgb, var(--accent-color), transparent 92%);
@@ -1076,24 +1076,23 @@ section,
   margin-right: 15px;
 }
 
-.contact .info-item h3 {
+#contact-form h3 {
   padding: 0;
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
-
-.contact .info-item p {
+#contact-form p {
   padding: 0;
   margin-bottom: 0;
   font-size: 14px;
 }
 
-.contact .info-item:hover i {
+#contact-form i {
   background: var(--accent-color);
   color: var(--contrast-color);
-}
-
+} */
+/* 
 .contact .php-email-form {
   background-color: var(--surface-color);
   height: 100%;
@@ -1142,7 +1141,7 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
-}
+} */
 
 /*--------------------------------------------------------------
 # Portfolio Details Section
